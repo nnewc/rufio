@@ -4,6 +4,8 @@ go 1.22.0
 
 toolchain go1.22.2
 
+replace github.com/bmc-toolbox/bmclib/v2 => github.com/nnewc/bmclib/ main
+
 require (
 	dario.cat/mergo v1.0.1
 	github.com/bmc-toolbox/bmclib/v2 v2.3.5-0.20241214123342-adcf7f1ea7fc
